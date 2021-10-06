@@ -1,0 +1,26 @@
+{
+  "name": "css-frameworks-ca-tormagne",
+  "version": "1.0.0",
+  "description": "From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "node-sass": "^6.0.1",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-TorMagne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-TorMagne/issues"
+  },
+  "homepage": "https://github.com/Noroff-FEU-Assignments/css-frameworks-ca-TorMagne#readme"
+}
