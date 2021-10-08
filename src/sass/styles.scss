@@ -1,0 +1,20 @@
+@import './partials/variables';
+
+$navbar-light-brand-color: $primary-color;
+$navbar-light-color: $black-color;
+$dropdown-bg: $nav-color;
+
+$font-family-base: 'Lato', sans-serif;
+$headings-font-family: 'Playfair Display', serif;
+
+$body-bg: $body-bg-color;
+$body-color: $txt-color;
+
+$input-placeholder-color: $txt-color;
+$input-bg: $white-bg;
+$input-border-color: transparent;
+
+@import '~bootstrap/scss/bootstrap';
+
+@import './partials/nav';
+@import './partials/forms';

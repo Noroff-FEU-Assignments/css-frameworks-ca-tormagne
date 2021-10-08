@@ -1,0 +1,15 @@
+.nav {
+  background: $nav-color !important;
+}
+
+.nav__brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav__active {
+  background-color: $white-color;
+  color: $black-color;
+  border-radius: 3px;
+}
