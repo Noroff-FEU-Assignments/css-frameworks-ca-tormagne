@@ -17,7 +17,7 @@ function nav() {
   return (
     <Router>
       <>
-        <Navbar className="nav" bg="light" expand="lg">
+        <Navbar className="nav__custom" bg="light" expand="lg">
           <Container>
             <Navbar.Brand className="nav__brand me-5" href="#home">
               The YAY Company
