@@ -8,9 +8,9 @@ import {
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Contact from '../Contact';
-import News from '../News';
-import Home from '../Home';
+import Contact from '../../contact/Contact';
+import News from '../news/News';
+import Home from '../home/Home';
 import SearchBar from '../form/SearchBar';
 
 function nav() {
@@ -24,14 +24,14 @@ function nav() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto mt-sm-4">
-                <NavLink className="nav-link mb-sm-3" exact to="/">
+              <Nav className="me-auto mt-4 mt-lg-0">
+                <NavLink className="nav-link mb-3 mb-lg-0" exact to="/">
                   Home
                 </NavLink>
-                <NavLink className="nav-link mb-sm-3" to="/news">
+                <NavLink className="nav-link mb-3 mb-lg-0" to="/news">
                   News
                 </NavLink>
-                <NavLink className="nav-link mb-sm-4" to="/contact">
+                <NavLink className="nav-link mb-4 mb-lg-0" to="/contact">
                   Contact
                 </NavLink>
               </Nav>

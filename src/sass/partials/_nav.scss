@@ -2,6 +2,10 @@
   background: $nav-color !important;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  @media (max-width: 768px) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 .nav__brand {
