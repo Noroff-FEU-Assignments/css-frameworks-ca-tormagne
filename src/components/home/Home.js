@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Cimg1 from '../../images/carousel/carousel-1.jpg';
 import Cimg2 from '../../images/carousel/carousel-2.jpg';
 import Cimg3 from '../../images/carousel/carousel-3.jpg';
-import Accord from '../accordian/Accordian';
+import AccordC from '../accordian/AccordianContent';
 
 function Home() {
   return (
@@ -38,7 +38,7 @@ function Home() {
       </section>
       <section>
         <Container>
-          <Accord />
+          <AccordC />
         </Container>
       </section>
     </>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 
-function Accordian() {
+function AccordianContent() {
   return (
     <>
       <Accordion defaultActiveKey="0">
@@ -34,4 +34,4 @@ function Accordian() {
   );
 }
 
-export default Accordian;
+export default AccordianContent;
