@@ -8,7 +8,7 @@ import {
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Contact from '../../contact/Contact';
+import Contact from '../contact/Contact';
 import News from '../news/News';
 import Home from '../home/Home';
 import SearchBar from '../form/SearchBar';

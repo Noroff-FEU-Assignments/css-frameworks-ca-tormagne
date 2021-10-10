@@ -1,6 +1,5 @@
-.carousel-header {
-  height: 462px;
-  //   @media (min-width: 540px) {
-  //     height: 1000px;
-  //   }
+.carousel-header img {
+  @media (max-width: 540px) {
+    height: 287px;
+  }
 }
