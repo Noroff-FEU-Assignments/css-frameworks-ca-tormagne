@@ -1,5 +1,7 @@
 .nav {
   background: $nav-color !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .nav__brand {
@@ -8,8 +10,16 @@
   font-style: italic;
 }
 
-.nav__active {
+.active {
   background-color: $white-color;
   color: $black-color;
   border-radius: 3px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }

@@ -10,7 +10,7 @@ function SearchBar() {
         <FormControl
           type="search"
           placeholder="Search"
-          className="mr-2"
+          className="mr-2 form__input"
           aria-label="Search"
         />
         <Button variant="go-button">Go</Button>
