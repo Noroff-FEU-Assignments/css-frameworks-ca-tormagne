@@ -1,28 +1,15 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
-import Cimg1 from '../../images/carousel/carousel-1.jpg';
-import Cimg2 from '../../images/carousel/carousel-2.jpg';
-import Cimg3 from '../../images/carousel/carousel-3.jpg';
 import AccordC from '../accordian/AccordianContent';
 import Footer from '../footer/Footer';
 import Tab from '../tabs/tabs';
+import CarouselContent from '../carousel/CarouselContent';
 
 function Home() {
   return (
     <>
       <section>
-        <Carousel controls={false} className="carousel-header">
-          <Carousel.Item>
-            <img className="d-block w-100" src={Cimg1} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Cimg2} alt="Second slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Cimg3} alt="Third slide" />
-          </Carousel.Item>
-        </Carousel>
+        <CarouselContent />
       </section>
 
       <section className="mt-4 mb-5">
