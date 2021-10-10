@@ -15,8 +15,13 @@ $input-placeholder-color: $txt-color;
 $input-bg: $white-bg;
 $input-border-color: transparent;
 
+$card-color: $txt-color;
+$card-bg: $white-bg;
+
 @import '~bootstrap/scss/bootstrap';
 
 @import './partials/nav';
 @import './partials/forms';
 @import './partials/carousel';
+@import './partials/accordion';
+@import './partials/footer';

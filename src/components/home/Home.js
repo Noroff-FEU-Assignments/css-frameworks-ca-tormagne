@@ -5,6 +5,8 @@ import Cimg1 from '../../images/carousel/carousel-1.jpg';
 import Cimg2 from '../../images/carousel/carousel-2.jpg';
 import Cimg3 from '../../images/carousel/carousel-3.jpg';
 import AccordC from '../accordian/AccordianContent';
+import Footer from '../footer/Footer';
+import Tab from '../tabs/tabs';
 
 function Home() {
   return (
@@ -39,7 +41,11 @@ function Home() {
       <section>
         <Container>
           <AccordC />
+          <Tab />
         </Container>
+      </section>
+      <section>
+        <Footer />
       </section>
     </>
   );
