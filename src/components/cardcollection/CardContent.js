@@ -16,7 +16,7 @@ import CardTitle from '../cardtitle/CardTitle';
 function CardContent() {
   return (
     <>
-      <Row className="">
+      <Row>
         <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg1} />
@@ -58,7 +58,7 @@ function CardContent() {
           </Card>
         </Col>
       </Row>
-      <Row className="">
+      <Row>
         <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg5} />
