@@ -1,0 +1,16 @@
+.card {
+  @media (max-width: 540px) {
+    width: 20rem !important;
+  }
+}
+
+.card-title {
+  color: $black-color;
+  font-family: $font-family-base;
+}
+
+.card-text {
+  font-family: $font-family-base;
+  color: $txt-color;
+  font-weight: 500;
+}

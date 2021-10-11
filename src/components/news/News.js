@@ -3,6 +3,7 @@ import Heading from '../heading/heading';
 import Container from 'react-bootstrap/Container';
 import Pagination from '../pagination/PaginationContent';
 import CardContent from '../cardcollection/CardContent';
+import Footer from '../footer/Footer';
 
 function News() {
   return (
@@ -17,7 +18,11 @@ function News() {
         <section>
           <Container>
             <CardContent />
+            <Pagination />
           </Container>
+        </section>
+        <section>
+          <Footer />
         </section>
       </main>
     </>

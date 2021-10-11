@@ -15,109 +15,85 @@ import Col from 'react-bootstrap/Col';
 function CardContent() {
   return (
     <>
-      <Row className="gx-5">
-        <Col md={3} className="mt-4">
+      <Row className="">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg1} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg2} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg3} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg4} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <Row className="gx-5">
-        <Col md={3} className="mt-4">
+      <Row className="">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg5} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg6} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg7} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3} className="mt-4">
+        <Col md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
             <Card.Img variant="top" src={CardImg8} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              <Card.Title>Nunc porttitor vel</Card.Title>
+              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
