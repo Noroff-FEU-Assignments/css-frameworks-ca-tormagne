@@ -1,22 +1,32 @@
 @import './partials/variables';
 
+// nav
 $navbar-light-brand-color: $primary-color;
 $navbar-light-color: $black-color;
 $dropdown-bg: $nav-color;
 
+// font
 $font-family-base: 'Lato', sans-serif;
 $headings-font-family: 'Playfair Display', serif;
 $headings-color: $primary-color;
 
+// body
 $body-bg: $body-bg-color;
 $body-color: $txt-color;
 
+// input
 $input-placeholder-color: $txt-color;
 $input-bg: $white-bg;
 $input-border-color: transparent;
 
+// card
 $card-color: $txt-color;
 $card-bg: $white-bg;
+
+// pagination
+$pagination-color: $primary-color;
+$pagination-active-border-color: $primary-color;
+$pagination-border-color: $primary-color;
 
 @import '~bootstrap/scss/bootstrap';
 
@@ -26,3 +36,4 @@ $card-bg: $white-bg;
 @import './partials/accordion';
 @import './partials/footer';
 @import './partials/tabs';
+@import './partials/pagination';

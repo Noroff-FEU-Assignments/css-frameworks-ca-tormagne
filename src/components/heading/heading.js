@@ -1,7 +1,7 @@
 import React from 'react';
 
 function heading(props) {
-  return <h1>{props.content}</h1>;
+  return <h1 className="mt-4">{props.content}</h1>;
 }
 
 export default heading;
