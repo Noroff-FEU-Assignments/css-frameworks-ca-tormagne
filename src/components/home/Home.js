@@ -4,6 +4,7 @@ import AccordC from '../accordian/AccordianContent';
 import Footer from '../footer/Footer';
 import Tab from '../tabs/tabs';
 import CarouselContent from '../carousel/CarouselContent';
+import Heading from '../heading/heading';
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
 
       <section className="mt-4 mb-5">
         <Container>
-          <h2>We do YAY things</h2>
+          <Heading content="We do YAY things" />
           <p>
             Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi,
             a rutrum justo eros pretium libero. Nullam vel enim id mauris
