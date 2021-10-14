@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 function Footer() {
   return (
-    <div className=" footer">
+    <div className="footer fixed-bottom">
       <Container fluid>
         <footer>
           <div className="d-flex align-items-center justify-content-center pt-5">
