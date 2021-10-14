@@ -1,9 +1,9 @@
 import React from 'react';
-import Heading from '../heading/heading';
+import Heading from '../Heading/heading';
 import Container from 'react-bootstrap/Container';
-import Pagination from '../pagination/PaginationContent';
-import CardContent from '../cardcollection/CardContent';
-import Footer from '../footer/Footer';
+import Pagination from '../Pagination/PaginationContent';
+import CardContent from '../CardCollection/CardContent';
+import Footer from '../Footer/Footer';
 
 function News() {
   return (

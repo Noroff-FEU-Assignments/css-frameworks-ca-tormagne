@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import AccordC from '../accordian/AccordianContent';
-import Footer from '../footer/Footer';
-import Tab from '../tabs/tabs';
-import CarouselContent from '../carousel/CarouselContent';
-import Heading from '../heading/heading';
+import AccordC from '../Accordian/AccordianContent';
+import Footer from '../Footer/Footer';
+import Tab from '../Tabs/tabs';
+import CarouselContent from '../Carousel/CarouselContent';
+import Heading from '../Heading/heading';
 
 function Home() {
   return (
