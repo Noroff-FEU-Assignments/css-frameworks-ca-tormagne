@@ -28,6 +28,11 @@ $pagination-color: $primary-color;
 $pagination-active-border-color: $primary-color;
 $pagination-border-color: $primary-color;
 
+// checkbox
+$form-check-input-width: 1.5em;
+$form-check-input-border: none;
+$form-check-input-bg: $primary-color;
+
 @import '~bootstrap/scss/bootstrap';
 
 @import './partials/nav';
@@ -38,3 +43,5 @@ $pagination-border-color: $primary-color;
 @import './partials/tabs';
 @import './partials/pagination';
 @import './partials/cards';
+@import './partials/contactform';
+@import './partials/global';

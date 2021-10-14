@@ -1,0 +1,16 @@
+.contact__icon {
+  font-size: 2rem;
+}
+
+.contact-form {
+  width: 182px;
+}
+
+.btn-contact__button {
+  background-color: $txt-color;
+  color: $white-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $white-color;
+  }
+}
