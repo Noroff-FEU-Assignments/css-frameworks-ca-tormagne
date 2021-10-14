@@ -12,7 +12,7 @@ function ContactForm() {
         <Row>
           <Col md={6}>
             <Container>
-              <Form>
+              <Form className="mb-5 mb-md-0">
                 <Form.Group className="mb-3">
                   <Form.Label>Name</Form.Label>
                   <Form.Control type="text" />
@@ -50,7 +50,7 @@ function ContactForm() {
           </Col>
           <Col md={6}>
             <Container>
-              <div className="contact-form">
+              <div className="contact__form__text">
                 <span className="d-flex">
                   <i class="fas fa-envelope contact__icon me-5 mb-5"></i>
                   <p>hello@yay.com</p>

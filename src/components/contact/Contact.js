@@ -8,14 +8,16 @@ function Contact() {
   return (
     <>
       <div className="wrapper">
-        <Container>
-          <Heading content="Submit your details" />
-          <main>
-            <section>
-              <ContactForm />
-            </section>
-          </main>
-        </Container>
+        <main>
+          <Container>
+            <Heading content="Submit your details" />
+            <main>
+              <section>
+                <ContactForm />
+              </section>
+            </main>
+          </Container>
+        </main>
         <section>
           <Footer />
         </section>

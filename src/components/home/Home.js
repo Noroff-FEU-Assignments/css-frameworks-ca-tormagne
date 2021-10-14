@@ -34,10 +34,10 @@ function Home() {
               <Tab />
             </Container>
           </section>
-          <section>
-            <Footer />
-          </section>
         </main>
+        <section>
+          <Footer />
+        </section>
       </div>
     </>
   );

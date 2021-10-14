@@ -22,10 +22,10 @@ function News() {
               <Pagination />
             </Container>
           </section>
-          <section>
-            <Footer />
-          </section>
         </main>
+        <section>
+          <Footer />
+        </section>
       </div>
     </>
   );
