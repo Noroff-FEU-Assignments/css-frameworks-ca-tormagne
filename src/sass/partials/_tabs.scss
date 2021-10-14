@@ -1,0 +1,17 @@
+.nav-tabs .nav-link.active {
+  color: $txt-color;
+  background: $white-bg;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: none;
+  border-color: white;
+}
+
+.nav-tabs .nav-link {
+  color: $primary-color;
+}
+
+.tab-content {
+  margin-top: -1.1rem;
+}
