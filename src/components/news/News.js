@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from '../Heading/heading';
+import Heading from '../Heading/Heading';
 import Container from 'react-bootstrap/Container';
 import Pagination from '../Pagination/PaginationContent';
 import CardContent from '../CardCollection/CardContent';

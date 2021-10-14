@@ -11,7 +11,7 @@ import CardImg7 from '../../images/news/news-7.jpg';
 import CardImg8 from '../../images/news/news-8.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CardTitle from '../cardtitle/CardTitle';
+import CardTitle from '../CardTitle/CardTitle';
 
 const cardData = [
   {
@@ -67,7 +67,7 @@ function CardContent() {
               <CardTitle content="Nunc porttitor vel" />
               <Card.Text>{card.text}</Card.Text>
               <div class="d-grid">
-              <Button variant="card__button">MORE</Button>
+                <Button variant="card__button">MORE</Button>
               </div>
             </Card.Body>
           </Card>
