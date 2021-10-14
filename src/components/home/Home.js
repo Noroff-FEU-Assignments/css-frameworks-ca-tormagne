@@ -4,7 +4,7 @@ import AccordC from '../Accordian/AccordianContent';
 import Footer from '../Footer/Footer';
 import Tab from '../Tabs/tabs';
 import CarouselContent from '../Carousel/CarouselContent';
-import Heading from '../Heading/heading';
+import Heading from '../Heading/Heading';
 
 function Home() {
   return (
