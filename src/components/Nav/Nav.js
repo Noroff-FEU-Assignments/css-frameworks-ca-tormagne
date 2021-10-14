@@ -10,7 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Contact from '../Contact/Contact';
 import News from '../News/News';
-import Home from '../home/Home';
+import Home from '../Home/Home';
 import SearchBar from '../Form/SearchBar';
 
 function nav() {
