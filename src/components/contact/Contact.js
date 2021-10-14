@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Heading from '../heading/heading';
-import ContactForm from '../form/ContactForm';
-import Footer from '../footer/Footer';
+import Heading from '../Heading/heading';
+import ContactForm from '../Form/ContactForm';
+import Footer from '../Footer/Footer';
 
 function Contact() {
   return (
