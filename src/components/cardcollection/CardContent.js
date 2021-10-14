@@ -13,94 +13,67 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardTitle from '../cardtitle/CardTitle';
 
+const cardData = [
+  {
+    id: 0,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg1,
+  },
+  {
+    id: 1,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg2,
+  },
+  {
+    id: 2,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg3,
+  },
+  {
+    id: 3,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg4,
+  },
+  {
+    id: 4,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg5,
+  },
+  {
+    id: 5,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg6,
+  },
+  {
+    id: 6,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg7,
+  },
+  {
+    id: 7,
+    text: 'Nunc malesuada eget est fringilla dapibus.',
+    image: CardImg8,
+  },
+];
+
 function CardContent() {
   return (
-    <>
-      <Row>
-        <Col md={6} lg={3} className="mt-4">
+    <Row>
+      {cardData.map((card) => (
+        <Col key={card.id} md={6} lg={3} className="mt-4">
           <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg1} />
+            <Card.Img variant="top" src={card.image} />
             <Card.Body>
               <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Card.Text>{card.text}</Card.Text>
+              <div class="d-grid">
+              <Button variant="card__button">MORE</Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg2} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg3} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg4} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg5} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg6} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg7} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6} lg={3} className="mt-4">
-          <Card style={{ width: '16.5rem' }}>
-            <Card.Img variant="top" src={CardImg8} />
-            <Card.Body>
-              <CardTitle content="Nunc porttitor vel" />
-              <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </>
+      ))}
+    </Row>
   );
 }
 

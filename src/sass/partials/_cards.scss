@@ -14,3 +14,8 @@
   color: $txt-color;
   font-weight: 500;
 }
+
+.btn-card__button {
+  background: linear-gradient(to right, $primary-color 90%, $txt-color 51%);
+  color: $white-color;
+}

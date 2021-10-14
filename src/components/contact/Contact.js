@@ -1,7 +1,10 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container'
 
 function Contact() {
-  return <div>Contact</div>;
+  return <>
+  <Container></Container>
+  </>;
 }
 
 export default Contact;
